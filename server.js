@@ -10,7 +10,6 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public')); // Serve the local testing dashboard
 
 // Health check route for Render (if they hit /health)
 app.get('/health', (req, res) => {
