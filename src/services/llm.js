@@ -26,7 +26,7 @@ ${currentCode}
 
       const response = await this.groq.chat.completions.create({
         messages: [{ role: 'user', content: prompt }],
-        model: 'llama3-70b-8192',
+        model: 'llama-3.3-70b-versatile',
         temperature: 0.1, // Low temperature for deterministic code generation
       });
 
