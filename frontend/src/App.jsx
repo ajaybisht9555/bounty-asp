@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import HowToUse from './pages/HowToUse';
+import Architecture from './pages/Architecture';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/how-to-use" element={<HowToUse />} />
+          <Route path="/architecture" element={<Architecture />} />
         </Routes>
 
         <footer className="footer">

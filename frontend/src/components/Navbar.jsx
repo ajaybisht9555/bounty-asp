@@ -32,6 +32,12 @@ const Navbar = () => {
           }}>
             How To Use
           </Link>
+          <Link to="/architecture" style={{ 
+            color: location.pathname === '/architecture' ? 'var(--okx-brand)' : 'var(--text-secondary)', 
+            textDecoration: 'none', fontFamily: 'var(--font-mono)', fontSize: '0.85rem', fontWeight: 500, textTransform: 'uppercase', transition: 'color 0.2s'
+          }}>
+            Architecture
+          </Link>
         </div>
 
       </div>
