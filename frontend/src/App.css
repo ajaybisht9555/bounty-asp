@@ -1,0 +1,12 @@
+/* App.css is intentionally minimal as index.css handles the design system */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--bg-base);
+}
