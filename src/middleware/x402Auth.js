@@ -1,5 +1,5 @@
 // Replace with your actual X Layer Testnet Wallet Address to receive funds
-const YOUR_WALLET_ADDRESS = process.env.WALLET_ADDRESS || "0x0000000000000000000000000000000000000000";
+const YOUR_WALLET_ADDRESS = process.env.WALLET_ADDRESS || "0x586f23e6fa3ad8aee5060b021f943958446dac43";
 
 const x402Auth = (req, res, next) => {
   const { method } = req.body;
