@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Health check route for Render (if they hit /health)
 app.get('/health', (req, res) => {
-  res.send('BountyFix ASP is active and listening for x402 escrow payments.');
+  res.send('BountyFix is alive and wealthy!');
 });
 
 // Register MCP Routes
